@@ -1,12 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
     <title>Static Template</title>
   </head>
   <body>
-    <h1>This is a static template, there is no bundler or bundling involved!</h1>
+    <div class="content">
+      <div class="left">
+        <div class="logo">
+          <img src="./logo.png" alt="logo" />
+          <h1>Project Titan</h1>
+        </div>
+      </div>
+      <div class="right">
+        <div class="headerText">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque at
+            faucibus arcu. Quisque maximus tempor justo, vitae volutpat purus
+            venenatis vitae. Duis eu suscipit erat, feugiat suscipit lorem.
+          </p>
+          <p class="signtxt">Sign Up <em>now</em> to get started</p>
+          <p class="p3">
+            Explore the <em style="color: #36b3c9;">unknown</em>.
+          </p>
+        </div>
+        <form action="#">
+          <div class="formstuffs">
+            <p class="title">Let your journey begin!</p>
+            <div class="forminputs">
+              <div class="input">
+                <label for="fname">FIRST NAME</label>
+                <input type="text" name="fname" id="fname" />
+              </div>
+              <div class="input">
+                <label for="lname">LAST NAME</label>
+                <input type="text" name="lname" id="lname" />
+              </div>
+              <div class="input">
+                <label for="email">EMAIL</label>
+                <input type="email" name="email" id="email" />
+              </div>
+              <div class="input">
+                <label for="number">PHONE NUMBER</label>
+                <input type="text" name="number" id="number" />
+              </div>
+              <div class="input">
+                <label for="pass">PASSWORD</label>
+                <input type="password" name="pass" id="pass" />
+              </div>
+              <div class="input">
+                <label for="cpass">CONFIRM PASSWORD</label>
+                <input type="password" name="cpass" id="cpass" />
+              </div>
+            </div>
+          </div>
+          <button type="submit">Create Account</button>
+        </form>
+        <p class="link">
+          Already have an account? <a href="#"> &nbsp;&nbsp;Log In </a>
+        </p>
+      </div>
+    </div>
   </body>
 </html>
